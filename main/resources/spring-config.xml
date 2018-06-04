@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+   <!-- <bean id="student" class="com.zfr.course.c01.Student" scope="prototype">--><!--  scope="prototype"   每次会创建一个对象。默认如果有实例，则返回-->
+
+    <!--  </bean>
+
+     <bean id="school" class="com.zfr.course.c01.school" >
+
+
+         <property name="student" ref="student"></property>
+
+     </bean>-->
+    <!-- <context:component-scan base-package="com.zfr.course.c02"/>
+    <bean id="clazz" class="com.zfr.course.c02.User" autowire="constructor"/>-->
+    <!--<context:component-scan base-package="com.zfr.course.c02"/>-->
+    <!--<bean id="user"  class="com.zfr.course.c02.User" >
+        <property name="name" value="张锋瑞"/>
+        <property name="sex" value="男"/>
+
+    </bean>-->
+    <!--<bean id="user" class="com.zfr.course.c02.BeanFactory" factory-method="createUser"/>
+    -->
+    <!--<bean id="user" class="com.zfr.course.c02.User">
+        <constructor-arg index="0" value="tom"/>
+
+    </bean>
+    <bean id="user1" class="com.zfr.course.c02.User">
+        <property name="name" value="张锋瑞"/>
+    </bean>-->
+
+
+    <bean id="student" class="com.zfr.course.c01.Student">
+    </bean>
+
+
+
+
+
+
+
+</beans>
